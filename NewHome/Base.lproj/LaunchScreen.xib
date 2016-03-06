@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_welcome_bg" translatesAutoresizingMaskIntoConstraints="NO" id="hUO-Zf-0cd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="ZBJ-xB-nbE"/>
+                        <constraint firstAttribute="height" constant="667" id="mUW-DJ-HQQ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hUO-Zf-0cd" secondAttribute="bottom" id="WdB-cQ-jpz"/>
+                <constraint firstItem="hUO-Zf-0cd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iTq-72-Zi6"/>
+                <constraint firstItem="hUO-Zf-0cd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qxq-gN-SKR"/>
+                <constraint firstAttribute="trailing" secondItem="hUO-Zf-0cd" secondAttribute="trailing" id="ySr-ij-WM0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_welcome_bg" width="2561" height="1439"/>
+    </resources>
+</document>
